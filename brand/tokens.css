@@ -1,0 +1,55 @@
+/**
+ * Zigo Visual Identity Guidelines (October 2026)
+ * Brand Tokens for Zigo & Zigo Water
+ */
+
+:root {
+  /* Signature Brand Color */
+  --zigo-blue: #012DB3;
+  --zigo-blue-hover: #0024A0;
+  --zigo-blue-subtle: #012DB31A;
+
+  /* Primary Dark */
+  --midnight: #0A1633;
+  --midnight-elevated: #0F1F46;
+  --midnight-card: #0D1B3D;
+
+  /* Highlights & Accents on Dark */
+  --sky: #8FB4FF;
+  --sky-hover: #7AA2F5;
+
+  /* Calm Neutral Light Backgrounds */
+  --mist: #EEF2FB;
+  --mist-card: #F4F7FD;
+
+  /* Neutrals */
+  --white: #FFFFFF;
+  --ink: #0B1220;
+  --muted: #5B6478;
+  --muted-light: rgba(255, 255, 255, 0.7);
+
+  /* Service Accent: Zigo Water */
+  --water: #19A7CE;
+  --water-tint-1: #98D7E9;
+  --water-tint-2: #E3F4F9;
+  --water-hover: #148FB2;
+  --water-glow: rgba(25, 167, 206, 0.25);
+
+  /* Secondary Service Accents (small preview reference only) */
+  --concierge: #8B7BF0;
+  --ride: #F2923C;
+
+  /* Decorative Accents */
+  --dusk: #F9CEA7;
+  --line-dark: rgba(255, 255, 255, 0.14);
+  --line-light: rgba(11, 18, 32, 0.08);
+
+  /* Typography */
+  --font-serif: var(--font-playfair), "Playfair Display", Georgia, serif;
+  --font-sans: var(--font-dm-sans), "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Layout & Rhythm */
+  --gutter: clamp(20px, 5vw, 72px);
+  --max-width: 1280px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
