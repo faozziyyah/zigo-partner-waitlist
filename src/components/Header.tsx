@@ -60,12 +60,12 @@ export default function Header() {
 
         {/* Action Controls */}
         <div className="flex items-center gap-4">
-          <Link
+          {/*<Link
             href="/admin"
             className="text-xs sm:text-sm text-white/70 hover:text-white transition-colors hidden md:inline-flex"
           >
             Partner Admin
-          </Link>
+          </Link>*/}
           <button
             onClick={scrollToForm}
             className="btn-primary-dark text-xs sm:text-sm px-5 py-2.5 sm:px-6 sm:py-3 transition-transform active:scale-95 inline-flex items-center gap-2 shadow-sm"

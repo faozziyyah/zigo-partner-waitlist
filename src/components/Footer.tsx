@@ -41,12 +41,12 @@ export default function Footer() {
           <Link href="/terms" className="hover:text-white transition-colors">
             Terms of Service
           </Link>
-          <Link
+          {/*<Link
             href="/admin"
             className="text-[#8FB4FF] hover:underline font-medium"
           >
             Partner Admin View →
-          </Link>
+          </Link>*/}
         </div>
       </div>
 

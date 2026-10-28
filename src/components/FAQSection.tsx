@@ -28,15 +28,11 @@ const FAQ_ITEMS: FAQItem[] = [
     question: "Which boats can join?",
     answer:
       "Yachts, private leisure boats, and commercial passenger boats (including 30-seater, 20-seater, and 15-seater craft) operating along Lagos waterways such as Five Cowries Creek, Victoria Island, Ikoyi, Lekki, and Ilashe.",
-    todoComment:
-      "TODO: Confirm minimum marine safety equipment checklist and LASWA boat inspection certificate requirements before launch.",
   },
   {
     question: "Is my WhatsApp number shared?",
     answer:
       "No. Your WhatsApp number is strictly protected and never shared publicly or displayed to guests. It is used exclusively by the Zigo team to notify you of confirmed bookings, dispatch updates, and captain payouts.",
-    todoComment:
-      "TODO: Confirm WhatsApp Business API end-to-end messaging templates and customer privacy masking mechanism.",
   },
 ];
 
